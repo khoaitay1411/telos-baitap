@@ -1,0 +1,96 @@
+.wrapper{
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.font{
+    font-family: 'Inter';
+    font-style: normal;
+    color: #18191F;
+}
+.h2{
+    margin-block: 64px 0px;
+    display: flex;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+}
+.subtitle{
+    margin-block: 8px 0px;
+    width: 350px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+}
+.rectangle{
+    margin: 0px 15px 0px;
+    height: 90px;
+    width: 160px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+}
+.logo{
+    width: auto;
+    height: 30px;
+    margin: 30px;
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content:stretch;
+}
+.item1{
+    width: 100%;
+    height: 308px;
+    display: flex;
+    justify-content: center;
+}
+.item2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.item3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.bodytext{
+    width: 350px;
+    margin: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+
+}
+.icon{
+    display: flex;
+    flex-direction: row;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    margin: 48px 15px 64px 0px;
+}
+.h5{
+    margin: 24px 0px 0px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: center;
+}
+.item4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
