@@ -1,0 +1,123 @@
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+.background{
+    display: flex;
+    height: 663px;
+    background-color: aqua;
+    flex-direction: column;
+}
+.font{
+    font-family: 'Inter';
+    font-style: normal;
+    text-align: center;
+    color: #18191f;
+}
+.header{
+    margin: 64px 0px 8px 0px;
+    font-size: 48px;
+    line-height: 64px;
+    font-weight: 800;
+}
+.text{
+    margin: 8px 0 40px 0;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 400;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    margin: 0 auto;
+    gap: 30px;
+    width: 1100px;
+}
+.rectangle{
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    width: 350px;
+    height: 192px;
+    border-radius: 10px;
+    background-color: #fff;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+.mask-triangle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 10px;
+    position: relative;
+}
+.triangle{
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #fff;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+}
+.testimonial{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title-md{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: center;
+    margin: 0px 40px 8px 40px;
+}
+.body{
+    display: flex;
+    justify-content: center;
+    order: 1;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin: 8px 40px;
+}
+.testimonial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.customer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+}
+.circle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 220px;
+    border-radius: 200%;
+    width: 56px;
+    height: 56px;
+    background-color: black;
+}
+.subtitle{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    margin-block: 0px;
+}
+.body-2{
+    margin-block: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
